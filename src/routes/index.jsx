@@ -6,7 +6,7 @@ const AppRoute = () =>
     <BrowserRouter>
         <Switch>
             {routes.map((route, index) => (
-                <Route {...route}/>
+                <Route key={index} {...route}/>
             ))}
 
         </Switch>

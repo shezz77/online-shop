@@ -3463,11 +3463,11 @@ select option
 	font-size: 16px;
 	color: rgba(0,0,0,0.3);
 }
-.newsletter_input::input-placeholder
-{
-	font-size: 16px;
-	color: rgba(0,0,0,0.3);
-}
+/*.newsletter_input::input-placeholder*/
+/*{*/
+	/*font-size: 16px;*/
+	/*color: rgba(0,0,0,0.3);*/
+/*}*/
 .newsletter_button
 {
 	position: absolute;
@@ -3527,10 +3527,10 @@ select option
 .footer .logo
 {
 	top: auto;
-	-webkit-transform: transform: none;
-    -moz-transform: transform: none;
-    -ms-transform: transform: none;
-    -o-transform: transform: none;
+	-webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
     transform: none;
 }
 .footer .logo a
