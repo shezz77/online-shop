@@ -3,7 +3,7 @@ import AppRoute from './../routes';
 
 class AppContext extends React.Component {
     state = {
-
+        user: {}
     };
 
     render(){

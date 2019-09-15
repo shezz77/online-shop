@@ -1,9 +1,10 @@
 import HomeComponent from '../views/home';
+import Auth from './../hoc/auth';
 
 export const routes = [
     {
         path: '/',
-        component: HomeComponent
+        component: Auth(HomeComponent)
     },
     {
         redirect: true,

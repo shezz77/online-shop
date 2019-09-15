@@ -3,7 +3,7 @@ import Layout from "../../hoc/layout";
 import Banner from "./sections/banner";
 import Characteristics from "./sections/characteristics";
 
-const Index = () => {
+const HomeIndex = () => {
     return (
         <Layout>
 
@@ -4012,4 +4012,4 @@ const Index = () => {
     );
 };
 
-export default Index;
+export default HomeIndex;
