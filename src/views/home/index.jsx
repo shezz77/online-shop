@@ -1,84 +1,18 @@
 import React from 'react';
-import Layout from "../hoc/layout";
+import Layout from "../../hoc/layout";
+import Banner from "./sections/banner";
+import Characteristics from "./sections/characteristics";
 
-const Home = () => {
+const Index = () => {
     return (
         <Layout>
-            {/* Banner */}
 
-            <div className="banner">
-                <div className="banner_background" style="background-image:url(images/banner_background.jpg)"></div>
-                <div className="container fill_height">
-                    <div className="row fill_height">
-                        <div className="banner_product_image"><img src="images/banner_product.png" alt=""/></div>
-                        <div className="col-lg-5 offset-lg-4 fill_height">
-                            <div className="banner_content">
-                                <h1 className="banner_text">new era of smartphones</h1>
-                                <div className="banner_price"><span>$530</span>$460</div>
-                                <div className="banner_product_name">Apple Iphone 6s</div>
-                                <div className="button banner_button"><a href="#">Shop Now</a></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            {/* Banner */}
+            <Banner/>
 
             {/* Characteristics */}
+            <Characteristics/>
 
-            <div className="characteristics">
-                <div className="container">
-                    <div className="row">
-
-                        {/* Char. Item */}
-                        <div className="col-lg-3 col-md-6 char_col">
-
-                            <div className="char_item d-flex flex-row align-items-center justify-content-start">
-                                <div className="char_icon"><img src="images/char_1.png" alt=""/></div>
-                                <div className="char_content">
-                                    <div className="char_title">Free Delivery</div>
-                                    <div className="char_subtitle">from $50</div>
-                                </div>
-                            </div>
-                        </div>
-
-                        {/* Char. Item */}
-                        <div className="col-lg-3 col-md-6 char_col">
-
-                            <div className="char_item d-flex flex-row align-items-center justify-content-start">
-                                <div className="char_icon"><img src="images/char_2.png" alt=""/></div>
-                                <div className="char_content">
-                                    <div className="char_title">Free Delivery</div>
-                                    <div className="char_subtitle">from $50</div>
-                                </div>
-                            </div>
-                        </div>
-
-                        {/* Char. Item */}
-                        <div className="col-lg-3 col-md-6 char_col">
-
-                            <div className="char_item d-flex flex-row align-items-center justify-content-start">
-                                <div className="char_icon"><img src="images/char_3.png" alt=""/></div>
-                                <div className="char_content">
-                                    <div className="char_title">Free Delivery</div>
-                                    <div className="char_subtitle">from $50</div>
-                                </div>
-                            </div>
-                        </div>
-
-                        {/* Char. Item */}
-                        <div className="col-lg-3 col-md-6 char_col">
-
-                            <div className="char_item d-flex flex-row align-items-center justify-content-start">
-                                <div className="char_icon"><img src="images/char_4.png" alt=""/></div>
-                                <div className="char_content">
-                                    <div className="char_title">Free Delivery</div>
-                                    <div className="char_subtitle">from $50</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
             {/* Deals of the week */}
 
@@ -1556,7 +1490,7 @@ const Home = () => {
             {/* Banner */}
 
             <div className="banner_2">
-                <div className="banner_2_background" style="background-image:url(images/banner_2_background.jpg)"></div>
+                <div className="banner_2_background" style={{ backgroundImage: 'background-image:url(images/banner_2_background.jpg)' }}></div>
                 <div className="banner_2_container">
                     <div className="banner_2_dots"></div>
                     {/* Banner 2 Slider */}
@@ -1659,7 +1593,7 @@ const Home = () => {
                                     <div className="tabs_line"><span></span></div>
                                 </div>
                                 <div className="row">
-                                    <div className="col-lg-9" style="z-index:1;">
+                                    <div className="col-lg-9" style={{ zIndex: 1}}>
 
                                         {/* Product Panel */}
                                         <div className="product_panel panel active">
@@ -3664,7 +3598,7 @@ const Home = () => {
             {/* Trends */}
 
             <div className="trends">
-                <div className="trends_background" style="background-image:url(images/trends_background.jpg)"></div>
+                <div className="trends_background" style={{ backgroundImage: 'url(images/trends_background.jpg)'}}></div>
                 <div className="trends_overlay"></div>
                 <div className="container">
                     <div className="row">
@@ -4078,4 +4012,4 @@ const Home = () => {
     );
 };
 
-export default Home;
+export default Index;
