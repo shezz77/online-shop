@@ -4,3 +4,7 @@ export {default as  char_1} from './images/char_1.png';
 export {default as  char_2} from './images/char_2.png';
 export {default as  char_3} from './images/char_3.png';
 export {default as  char_4} from './images/char_4.png';
+export {default as  popular_1} from './images/popular_1.png';
+export {default as  dealsImage} from './images/deals.png';
+export {default as  featured_1} from './images/featured_1.png';
+export {default as  featured_2} from './images/featured_2.png';

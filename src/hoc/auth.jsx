@@ -1,5 +1,5 @@
 import React from 'react';
-import AppContext from './../context';
+import AppContext from './../context/app-context';
 
 const Auth = (ComposedComponent) => {
     class AuthenticationCheck extends React.Component {
@@ -13,7 +13,7 @@ const Auth = (ComposedComponent) => {
                 localStorage.setItem('user', JSON.stringify(userObj))
             }
 
-            this.context.handleU
+            // this.context.handle
             console.log(JSON.parse(user));
         };
 
